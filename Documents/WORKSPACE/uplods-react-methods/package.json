@@ -1,0 +1,11 @@
+{
+  "name": "uplods-react-methods",
+  "version": "1.0.0",
+  "description": "define methods for upload ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
