@@ -1,17 +1,15 @@
 
 # dependencies
-/node_modules
+node_modules
 
 # production
-/dist
+/src/dist
 
 # misc
 .DS_Store
 npm-debug.log*
 .cache-loader/
 .vscode
-
-./*.css
 
 .cache
 .dll
