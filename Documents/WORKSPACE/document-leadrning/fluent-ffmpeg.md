@@ -6,4 +6,19 @@
       先安装ffmpeg（必要时可以将编码库libmp3lame 或者 libx264也安装好）
       
 ## 安装方法
-  npm install fluent-ffmpeg
+
+>
+  $ npm install fluent-ffmpeg
+>
+
+或者直接使用子模块
+
+>
+$ git submodule add git://github.com/schaermu/node-fluent-ffmpeg.git vendor/fluent-ffmpeg
+>
+
+# 用途
+
+在案例文件夹中你可以找到很多有用的使用例子（包括一个使用[flowplaye](https://flowplayer.com/)r和express搭建的实时流媒体案例）
+
+# Prerequisites
