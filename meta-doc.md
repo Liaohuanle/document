@@ -1,15 +1,15 @@
 # <meta charset="UTF-8”>
 ### 普通数据 - name + content 模式
 
-用于告诉搜索引擎，你网页的关键字
+1.用于告诉搜索引擎，你网页的关键字
 ```html
     <meta name="keywords" content=“musical.ly, one million activity">
 ```
-用于告诉搜索引擎，你网站的主要内容。
+2.用于告诉搜索引擎，你网站的主要内容。
 ```html
    <meta name="description" content=“musical.ly">
 ```
-robots用来告诉爬虫哪些页面需要索引，哪些页面不需要索引。
+3.robots用来告诉爬虫哪些页面需要索引，哪些页面不需要索引。
 ```html
    <meta name="robots" content="none">
     1.none : 搜索引擎将忽略此网页，等价于noindex，nofollow。
@@ -24,15 +24,15 @@ robots用来告诉爬虫哪些页面需要索引，哪些页面不需要索引�
    
     6.follow : 搜索引擎继续通过此网页的链接索引搜索其它的网页
 ```
-如果页面不是经常更新，为了减轻搜索引擎爬虫对服务器带来的压力，可以设置一个爬虫的重访时间。如果重访时间过短，爬虫将按它们定义的默认时间来访问。
+4.如果页面不是经常更新，为了减轻搜索引擎爬虫对服务器带来的压力，可以设置一个爬虫的重访时间。如果重访时间过短，爬虫将按它们定义的默认时间来访问。
 ```html
     <meta name="revisit-after" content="7 days">
 ```
-renderer是为双核浏览器准备的，用于指定双核浏览器默认以何种方式渲染页面。//默认webkit内核 | 默认IE兼容模式 | 默认IE标准模式
+5.renderer是为双核浏览器准备的，用于指定双核浏览器默认以何种方式渲染页面。//默认webkit内核 | 默认IE兼容模式 | 默认IE标准模式
 ```html
     <meta name="renderer" content=“webkit | ie-comp | ie-stand"> 
 ```
-width: viewport 的宽度 （范围从200 到10,000，默认为980 像素）, height: viewport 的高度 （范围从223 到10,000）,initial-scale初始的缩放比例 （范围从>0 到10）,minimum-scale 允许用户缩放到的最小比例, maximum-scale - 允许用户缩放到的最大比例
+6. viewport width: viewport 的宽度 （范围从200 到10,000，默认为980 像素）, height: viewport 的高度 （范围从223 到10,000）,initial-scale初始的缩放比例 （范围从>0 到10）,minimum-scale 允许用户缩放到的最小比例, maximum-scale - 允许用户缩放到的最大比例
 ```html
     <meta name="viewport" content="width=device-width, initial-scale=1”>
 ```
@@ -52,8 +52,7 @@ width: viewport 的宽度 （范围从200 到10,000，默认为980 像素）, he
           }
           lastTouchEnd=now;
         },false)
-      }
-      
+    }
 ```
 
 ### http-equiv - http-equiv + content
