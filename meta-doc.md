@@ -1,13 +1,29 @@
 # <meta charset="UTF-8”>
 ### 普通数据 - name + content 模式
 
+用于告诉搜索引擎，你网页的关键字
 ```html
-    <meta name="keywords" content=“musical.ly, one million activity">用于告诉搜索引擎，你网页的关键字。
-    <meta name="description" content=“musical.ly">用于告诉搜索引擎，你网站的主要内容。
-    <meta name="robots" content="none">  robots用来告诉爬虫哪些页面需要索引，哪些页面不需要索引。
-    <meta name="revisit-after" content="7 days">如果页面不是经常更新，为了减轻搜索引擎爬虫对服务器带来的压力，可以设置一个爬虫的重访时间。如果重访时间过短，爬虫将按它们定义的默认时间来访问。
-     <meta name="renderer" content=“webkit | ie-comp | ie-stand"> renderer是为双核浏览器准备的，用于指定双核浏览器默认以何种方式渲染页面。//默认webkit内核 | 默认IE兼容模式 | 默认IE标准模式
-     <meta name="viewport" content="width=device-width, initial-scale=1”> width: viewport 的宽度 （范围从200 到10,000，默认为980 像素）, height: viewport 的高度 （范围从223 到10,000）,initial-scale初始的缩放比例 （范围从>0 到10）,minimum-scale 允许用户缩放到的最小比例, maximum-scale - 允许用户缩放到的最大比例
+    <meta name="keywords" content=“musical.ly, one million activity">
+```
+用于告诉搜索引擎，你网站的主要内容。
+```html
+   <meta name="description" content=“musical.ly">
+```
+robots用来告诉爬虫哪些页面需要索引，哪些页面不需要索引。
+```html
+   <meta name="robots" content="none">
+```
+如果页面不是经常更新，为了减轻搜索引擎爬虫对服务器带来的压力，可以设置一个爬虫的重访时间。如果重访时间过短，爬虫将按它们定义的默认时间来访问。
+```html
+    <meta name="revisit-after" content="7 days">
+```
+renderer是为双核浏览器准备的，用于指定双核浏览器默认以何种方式渲染页面。//默认webkit内核 | 默认IE兼容模式 | 默认IE标准模式
+```html
+    <meta name="renderer" content=“webkit | ie-comp | ie-stand"> 
+```
+width: viewport 的宽度 （范围从200 到10,000，默认为980 像素）, height: viewport 的高度 （范围从223 到10,000）,initial-scale初始的缩放比例 （范围从>0 到10）,minimum-scale 允许用户缩放到的最小比例, maximum-scale - 允许用户缩放到的最大比例
+```html
+    <meta name="viewport" content="width=device-width, initial-scale=1”>
 ```
 ```js
     //safari 中无效使用 额外有处理代码
