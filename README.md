@@ -2,13 +2,13 @@
 
 - [url输入到可见做了什么](./docs/fe_interview.md)
 
-- [谷歌支付](./docs/google_pay)
+- [谷歌支付](./code/google_pay)
 
 - [H5视频播放问题](./docs/fe_interview.md)
 
 - [meta头信息](./docs/meta-doc.md)
 
-- [自动移入文件脚本](./docs/move_from_to)
+- [自动移入文件脚本](./code/move_from_to)
 
 - [面试常问](./docs/my_qa.md)
 
@@ -16,4 +16,4 @@
 
 - [业务重构原则](./docs/re_build_pri.md)
 
-- [快速排序](./docs/sort_math)
+- [快速排序](./code/sort_math)
